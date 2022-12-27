@@ -1,5 +1,5 @@
 import streamlit as st
-
+import st_cropper
 img_file_buffer = st.camera_input("Take a picture")
 
 if img_file_buffer is not None:
